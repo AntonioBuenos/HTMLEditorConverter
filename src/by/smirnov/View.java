@@ -87,11 +87,11 @@ public class View extends JFrame implements ActionListener {
     }
 
     public void initEditor() {
-        htmlTextPane.setContentType("text/html");
+        htmlTextPane.setContentType(TEXT_HTML);
         JScrollPane htmlScrollPane = new JScrollPane(htmlTextPane);
-        tabbedPane.addTab("HTML", htmlScrollPane);
+        tabbedPane.addTab(TEXT, htmlScrollPane);
         JScrollPane plainScrollPane = new JScrollPane(plainTextPane);
-        tabbedPane.addTab("Текст", plainScrollPane);
+        tabbedPane.addTab(HTML, plainScrollPane);
         tabbedPane.setPreferredSize(new Dimension(400, 400));
         TabbedPaneChangeListener tabbedPaneChangeListener = new TabbedPaneChangeListener(this);
         tabbedPane.addChangeListener(tabbedPaneChangeListener);
@@ -154,8 +154,8 @@ public class View extends JFrame implements ActionListener {
     }
 
     public void showAbout() {
-        String message = "Тут могла бы быть Ваша реклама!";
+        String message = ABOUT_MESSAGE;
         JOptionPane optionPane = new JOptionPane();
-        JOptionPane.showMessageDialog(optionPane, message, "О программе", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(optionPane, message, ABOUT, JOptionPane.INFORMATION_MESSAGE);
     }
 }
