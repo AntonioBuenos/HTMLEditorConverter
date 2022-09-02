@@ -1,4 +1,4 @@
-package by.smirnov;
+package by.smirnov.exception;
 
 public class ExceptionHandler {
 

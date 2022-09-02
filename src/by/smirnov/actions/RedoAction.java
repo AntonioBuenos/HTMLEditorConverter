@@ -1,6 +1,6 @@
 package by.smirnov.actions;
 
-import by.smirnov.View;
+import by.smirnov.view.View;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

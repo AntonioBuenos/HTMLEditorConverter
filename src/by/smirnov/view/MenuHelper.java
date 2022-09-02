@@ -1,4 +1,4 @@
-package by.smirnov;
+package by.smirnov.view;
 
 import by.smirnov.actions.*;
 import by.smirnov.listeners.TextEditMenuListener;
@@ -11,7 +11,7 @@ import javax.swing.text.StyledEditorKit;
 import java.awt.*;
 import java.awt.event.ActionListener;
 
-import static by.smirnov.Wordings.*;
+import static by.smirnov.view.ViewConstants.*;
 
 public class MenuHelper {
     public static JMenuItem addMenuItem(JMenu parent, String text, ActionListener actionListener) {

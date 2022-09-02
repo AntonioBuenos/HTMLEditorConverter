@@ -1,9 +1,10 @@
-package by.smirnov;
+package by.smirnov.view;
 
 import java.awt.*;
 
-public interface Wordings {
+public interface ViewConstants {
 
+    String TITLE = "HTML редактор";
     String NEW = "Новый";
     String OPEN = "Открыть";
     String SAVE = "Сохранить";

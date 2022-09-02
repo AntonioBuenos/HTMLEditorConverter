@@ -1,5 +1,7 @@
-package by.smirnov;
+package by.smirnov.view;
 
+import by.smirnov.controller.Controller;
+import by.smirnov.exception.ExceptionHandler;
 import by.smirnov.listeners.FrameListener;
 import by.smirnov.listeners.TabbedPaneChangeListener;
 import by.smirnov.listeners.UndoListener;
@@ -13,7 +15,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import static by.smirnov.Wordings.*;
+import static by.smirnov.view.ViewConstants.*;
 
 public class View extends JFrame implements ActionListener {
     public View() {

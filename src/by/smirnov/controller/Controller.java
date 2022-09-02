@@ -1,10 +1,16 @@
-package by.smirnov;
+package by.smirnov.controller;
+
+import by.smirnov.HTMLFileFilter;
+import by.smirnov.view.View;
+import by.smirnov.exception.ExceptionHandler;
 
 import javax.swing.*;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.html.HTMLDocument;
 import javax.swing.text.html.HTMLEditorKit;
 import java.io.*;
+
+import static by.smirnov.view.ViewConstants.TITLE;
 
 public class Controller {
 
@@ -19,14 +25,6 @@ public class Controller {
 
     public Controller(View view) {
         this.view = view;
-    }
-
-    public static void main(String[] args) {
-        View view = new View();
-        Controller controller = new Controller(view);
-        view.setController(controller);
-        view.init();
-        controller.init();
     }
 
     public void init() {
@@ -69,7 +67,7 @@ public class Controller {
     public void createNewDocument() {
         view.selectHtmlTab();
         resetDocument();
-        view.setTitle("HTML редактор");
+        view.setTitle(TITLE);
         currentFile = null;
     }
 

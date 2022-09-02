@@ -1,6 +1,6 @@
 package by.smirnov.listeners;
 
-import by.smirnov.View;
+import by.smirnov.view.View;
 
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
