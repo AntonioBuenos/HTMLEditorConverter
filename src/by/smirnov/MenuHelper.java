@@ -11,6 +11,8 @@ import javax.swing.text.StyledEditorKit;
 import java.awt.*;
 import java.awt.event.ActionListener;
 
+import static by.smirnov.Wordings.*;
+
 public class MenuHelper {
     public static JMenuItem addMenuItem(JMenu parent, String text, ActionListener actionListener) {
         JMenuItem menuItem = new JMenuItem(text);
@@ -32,29 +34,27 @@ public class MenuHelper {
     }
 
     public static void initHelpMenu(View view, JMenuBar menuBar) {
-        JMenu helpMenu = new JMenu("Помощь");
+        JMenu helpMenu = new JMenu(HELP);
         menuBar.add(helpMenu);
 
-        addMenuItem(helpMenu, "О программе", view);
+        addMenuItem(helpMenu, ABOUT, view);
     }
 
     public static void initFontMenu(View view, JMenuBar menuBar) {
-        JMenu fontMenu = new JMenu("Шрифт");
+        JMenu fontMenu = new JMenu(FONT);
         menuBar.add(fontMenu);
 
-        JMenu fontTypeMenu = new JMenu("Шрифт");
+        JMenu fontTypeMenu = new JMenu(FONT);
         fontMenu.add(fontTypeMenu);
 
-        String[] fontTypes = {Font.SANS_SERIF, Font.SERIF, Font.MONOSPACED, Font.DIALOG, Font.DIALOG_INPUT};
-        for (String fontType : fontTypes) {
+        for (String fontType : FONT_TYPES) {
             addMenuItem(fontTypeMenu, fontType, new StyledEditorKit.FontFamilyAction(fontType, fontType));
         }
 
-        JMenu fontSizeMenu = new JMenu("Размер шрифта");
+        JMenu fontSizeMenu = new JMenu(FONT_SIZE);
         fontMenu.add(fontSizeMenu);
 
-        String[] fontSizes = {"6", "8", "10", "12", "14", "16", "20", "24", "32", "36", "48", "72"};
-        for (String fontSize : fontSizes) {
+        for (String fontSize : FONT_SIZES) {
             addMenuItem(fontSizeMenu, fontSize, new StyledEditorKit.FontSizeAction(fontSize, Integer.parseInt(fontSize)));
         }
 
@@ -106,27 +106,27 @@ public class MenuHelper {
     }
 
     public static void initEditMenu(View view, JMenuBar menuBar) {
-        JMenu editMenu = new JMenu("Редактировать");
+        JMenu editMenu = new JMenu(EDIT);
         menuBar.add(editMenu);
 
-        JMenuItem undoItem = addMenuItem(editMenu, "Отменить", new UndoAction(view));
-        JMenuItem redoItem = addMenuItem(editMenu, "Вернуть", new RedoAction(view));
-        addMenuItem(editMenu, "Вырезать", new DefaultEditorKit.CutAction());
-        addMenuItem(editMenu, "Копировать", new DefaultEditorKit.CopyAction());
-        addMenuItem(editMenu, "Вставить", new DefaultEditorKit.PasteAction());
+        JMenuItem undoItem = addMenuItem(editMenu, UNDO, new UndoAction(view));
+        JMenuItem redoItem = addMenuItem(editMenu, REDO, new RedoAction(view));
+        addMenuItem(editMenu, CUT, new DefaultEditorKit.CutAction());
+        addMenuItem(editMenu, COPY, new DefaultEditorKit.CopyAction());
+        addMenuItem(editMenu, PASTE, new DefaultEditorKit.PasteAction());
 
         editMenu.addMenuListener(new UndoMenuListener(view, undoItem, redoItem));
     }
 
     public static void initFileMenu(View view, JMenuBar menuBar) {
-        JMenu fileMenu = new JMenu("Файл");
+        JMenu fileMenu = new JMenu(FILE);
         menuBar.add(fileMenu);
 
-        addMenuItem(fileMenu, "Новый", view);
-        addMenuItem(fileMenu, "Открыть", view);
-        addMenuItem(fileMenu, "Сохранить", view);
-        addMenuItem(fileMenu, "Сохранить как...", view);
+        addMenuItem(fileMenu, NEW, view);
+        addMenuItem(fileMenu, OPEN, view);
+        addMenuItem(fileMenu, SAVE, view);
+        addMenuItem(fileMenu, SAVE_AS, view);
         fileMenu.addSeparator();
-        addMenuItem(fileMenu, "Выход", view);
+        addMenuItem(fileMenu, EXIT, view);
     }
 }
