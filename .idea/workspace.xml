@@ -48,13 +48,13 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Runner">
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.by.smirnov.Runner">
+    <configuration name="by.smirnov.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="by.smirnov.Runner" />
       <module name="HTMLEditorConverter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.smirnov.*" />
+          <option name="PATTERN" value="by.smirnov.filter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,7 +77,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.by.smirnov.Runner" />
         <item itemvalue="Application.by.smirnov.controller.Controller" />
       </list>
     </recent_temporary>

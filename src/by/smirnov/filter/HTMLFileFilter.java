@@ -1,4 +1,4 @@
-package by.smirnov;
+package by.smirnov.filter;
 
 import javax.swing.filechooser.FileFilter;
 import java.io.File;

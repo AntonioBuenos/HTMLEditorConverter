@@ -1,6 +1,6 @@
 package by.smirnov.controller;
 
-import by.smirnov.HTMLFileFilter;
+import by.smirnov.filter.HTMLFileFilter;
 import by.smirnov.view.View;
 import by.smirnov.exception.ExceptionHandler;
 
