@@ -1,4 +1,4 @@
-package com.javarush.task.task32.task3209;
+package by.smirnov;
 
 import javax.swing.filechooser.FileFilter;
 import java.io.File;

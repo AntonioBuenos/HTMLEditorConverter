@@ -1,8 +1,8 @@
-package com.javarush.task.task32.task3209;
+package by.smirnov;
 
-import com.javarush.task.task32.task3209.actions.*;
-import com.javarush.task.task32.task3209.listeners.TextEditMenuListener;
-import com.javarush.task.task32.task3209.listeners.UndoMenuListener;
+import by.smirnov.actions.*;
+import by.smirnov.listeners.TextEditMenuListener;
+import by.smirnov.listeners.UndoMenuListener;
 
 import javax.swing.*;
 import javax.swing.text.DefaultEditorKit;

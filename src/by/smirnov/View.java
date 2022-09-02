@@ -1,8 +1,8 @@
-package com.javarush.task.task32.task3209;
+package by.smirnov;
 
-import com.javarush.task.task32.task3209.listeners.FrameListener;
-import com.javarush.task.task32.task3209.listeners.TabbedPaneChangeListener;
-import com.javarush.task.task32.task3209.listeners.UndoListener;
+import by.smirnov.listeners.FrameListener;
+import by.smirnov.listeners.TabbedPaneChangeListener;
+import by.smirnov.listeners.UndoListener;
 
 import javax.swing.*;
 import javax.swing.text.html.HTMLDocument;
@@ -12,6 +12,8 @@ import javax.swing.undo.UndoManager;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
+import static by.smirnov.Wordings.*;
 
 public class View extends JFrame implements ActionListener {
     public View() {
@@ -58,18 +60,13 @@ public class View extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         String command = e.getActionCommand();
-        switch (command){
-            case "Новый": controller.createNewDocument();
-            break;
-            case "Открыть": controller.openDocument();
-            break;
-            case "Сохранить": controller.saveDocument();
-            break;
-            case "Сохранить как...": controller.saveDocumentAs();
-            break;
-            case "Выход": controller.exit();
-            break;
-            case "О программе": showAbout();
+        switch (command) {
+            case NEW -> controller.createNewDocument();
+            case OPEN -> controller.openDocument();
+            case SAVE -> controller.saveDocument();
+            case SAVE_AS -> controller.saveDocumentAs();
+            case EXIT -> controller.exit();
+            case ABOUT -> showAbout();
         }
     }
 

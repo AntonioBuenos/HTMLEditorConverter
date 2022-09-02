@@ -1,4 +1,4 @@
-package com.javarush.task.task32.task3209.listeners;
+package by.smirnov.listeners;
 
 import javax.swing.event.UndoableEditEvent;
 import javax.swing.event.UndoableEditListener;

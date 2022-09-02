@@ -1,6 +1,6 @@
-package com.javarush.task.task32.task3209.actions;
+package by.smirnov.actions;
 
-import com.javarush.task.task32.task3209.View;
+import by.smirnov.View;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

@@ -1,6 +1,6 @@
-package com.javarush.task.task32.task3209.listeners;
+package by.smirnov.listeners;
 
-import com.javarush.task.task32.task3209.View;
+import by.smirnov.View;
 
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;

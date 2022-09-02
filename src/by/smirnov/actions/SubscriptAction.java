@@ -1,4 +1,4 @@
-package com.javarush.task.task32.task3209.actions;
+package by.smirnov.actions;
 
 import javax.swing.*;
 import javax.swing.text.MutableAttributeSet;
