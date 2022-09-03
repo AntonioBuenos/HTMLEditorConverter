@@ -21,6 +21,9 @@ public class MenuHelper {
         return menuItem;
     }
 
+    private MenuHelper() {
+    }
+
     public static JMenuItem addMenuItem(JMenu parent, String text, Action action) {
         JMenuItem menuItem = addMenuItem(parent, action);
         menuItem.setText(text);
