@@ -27,4 +27,17 @@ public interface ViewConstants {
     String[] FONT_TYPES = {Font.SANS_SERIF, Font.SERIF, Font.MONOSPACED, Font.DIALOG, Font.DIALOG_INPUT};
     String FONT_SIZE = "Размер шрифта";
     String[] FONT_SIZES = {"6", "8", "10", "12", "14", "16", "20", "24", "32", "36", "48", "72"};
+    String COLOR = "Цвет";
+    String RED = "Красный";
+    String ORANGE = "Оранжевый";
+    String YELLOW = "Желтый";
+    String GREEN = "Зеленый";
+    String BLUE = "Синий";
+    String CYAN = "Голубой";
+    String MAGENTA = "Пурпурный";
+    String BLACK = "Черный";
+
+
+
+
 }

@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb375b55-eef8-4c00-8ada-e32fac0d9afa" name="Changes" comment="Refactoring 3">
-      <change afterPath="$PROJECT_DIR$/src/by/smirnov/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/smirnov/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/smirnov/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/smirnov/ExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/smirnov/exception/ExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/smirnov/MenuHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/smirnov/view/MenuHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/smirnov/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/smirnov/view/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/smirnov/Wordings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/smirnov/view/ViewConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/smirnov/actions/RedoAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/smirnov/actions/RedoAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/smirnov/actions/UndoAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/smirnov/actions/UndoAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/smirnov/listeners/FrameListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/smirnov/listeners/FrameListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/smirnov/listeners/TabbedPaneChangeListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/smirnov/listeners/TabbedPaneChangeListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/smirnov/listeners/TextEditMenuListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/smirnov/listeners/TextEditMenuListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/smirnov/listeners/UndoMenuListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/smirnov/listeners/UndoMenuListener.java" afterDir="false" />
-    </list>
+    <list default="true" id="eb375b55-eef8-4c00-8ada-e32fac0d9afa" name="Changes" comment="Refactoring 5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1661712264073</updated>
       <workItem from="1661712266192" duration="576000" />
-      <workItem from="1662152641299" duration="2742000" />
+      <workItem from="1662152641299" duration="3123000" />
     </task>
     <task id="LOCAL-00001" summary="Initial, to be refactored">
       <created>1661712833079</created>
@@ -121,7 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662154911812</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Refactoring 4">
+      <created>1662155455236</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662155455236</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Refactoring 5">
+      <created>1662155561217</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662155561217</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +144,8 @@
     <MESSAGE value="Refactoring 1" />
     <MESSAGE value="Refactoring 2" />
     <MESSAGE value="Refactoring 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring 3" />
+    <MESSAGE value="Refactoring 4" />
+    <MESSAGE value="Refactoring 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring 5" />
   </component>
 </project>
