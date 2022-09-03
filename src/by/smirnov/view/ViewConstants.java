@@ -36,8 +36,8 @@ public interface ViewConstants {
     String CYAN = "Голубой";
     String MAGENTA = "Пурпурный";
     String BLACK = "Черный";
-
-
-
-
+    String ALIGNMENT = "Выравнивание";
+    String ALIGN_LEFT = "По левому краю";
+    String ALIGN_CENTER = "По центру";
+    String ALIGN_RIGHT = "По правому краю";
 }

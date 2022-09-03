@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb375b55-eef8-4c00-8ada-e32fac0d9afa" name="Changes" comment="Refactoring 6">
+    <list default="true" id="eb375b55-eef8-4c00-8ada-e32fac0d9afa" name="Changes" comment="Refactoring 7">
       <change beforePath="$PROJECT_DIR$/src/by/smirnov/view/MenuHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/smirnov/view/MenuHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/smirnov/view/ViewConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/smirnov/view/ViewConstants.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +82,7 @@
       <updated>1661712264073</updated>
       <workItem from="1661712266192" duration="576000" />
       <workItem from="1662152641299" duration="3123000" />
-      <workItem from="1662246125112" duration="346000" />
+      <workItem from="1662246125112" duration="690000" />
     </task>
     <task id="LOCAL-00001" summary="Initial, to be refactored">
       <created>1661712833079</created>
@@ -132,7 +133,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662246381167</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Refactoring 6">
+      <created>1662246490873</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662246490873</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Refactoring 7">
+      <created>1662246665157</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662246665157</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +172,7 @@
     <MESSAGE value="Refactoring 4" />
     <MESSAGE value="Refactoring 5" />
     <MESSAGE value="Refactoring 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring 6" />
+    <MESSAGE value="Refactoring 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring 7" />
   </component>
 </project>

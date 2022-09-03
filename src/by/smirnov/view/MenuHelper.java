@@ -81,12 +81,12 @@ public class MenuHelper {
     }
 
     public static void initAlignMenu(View view, JMenuBar menuBar) {
-        JMenu alignMenu = new JMenu("Выравнивание");
+        JMenu alignMenu = new JMenu(ALIGNMENT);
         menuBar.add(alignMenu);
 
-        addMenuItem(alignMenu, new StyledEditorKit.AlignmentAction("По левому краю", StyleConstants.ALIGN_LEFT));
-        addMenuItem(alignMenu, new StyledEditorKit.AlignmentAction("По центру", StyleConstants.ALIGN_CENTER));
-        addMenuItem(alignMenu, new StyledEditorKit.AlignmentAction("По правому краю", StyleConstants.ALIGN_RIGHT));
+        addMenuItem(alignMenu, new StyledEditorKit.AlignmentAction(ALIGN_LEFT, StyleConstants.ALIGN_LEFT));
+        addMenuItem(alignMenu, new StyledEditorKit.AlignmentAction(ALIGN_CENTER, StyleConstants.ALIGN_CENTER));
+        addMenuItem(alignMenu, new StyledEditorKit.AlignmentAction(ALIGN_RIGHT, StyleConstants.ALIGN_RIGHT));
 
         alignMenu.addMenuListener(new TextEditMenuListener(view));
     }
