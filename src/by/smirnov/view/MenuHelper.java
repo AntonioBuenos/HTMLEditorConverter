@@ -62,17 +62,17 @@ public class MenuHelper {
     }
 
     public static void initColorMenu(View view, JMenuBar menuBar) {
-        JMenu colorMenu = new JMenu("Цвет");
+        JMenu colorMenu = new JMenu(COLOR);
         menuBar.add(colorMenu);
 
-        addMenuItem(colorMenu, new StyledEditorKit.ForegroundAction("Красный", Color.red));
-        addMenuItem(colorMenu, new StyledEditorKit.ForegroundAction("Оранжевый", Color.orange));
-        addMenuItem(colorMenu, new StyledEditorKit.ForegroundAction("Желтый", Color.yellow));
-        addMenuItem(colorMenu, new StyledEditorKit.ForegroundAction("Зеленый", Color.green));
-        addMenuItem(colorMenu, new StyledEditorKit.ForegroundAction("Синий", Color.blue));
-        addMenuItem(colorMenu, new StyledEditorKit.ForegroundAction("Голубой", Color.cyan));
-        addMenuItem(colorMenu, new StyledEditorKit.ForegroundAction("Пурпурный", Color.magenta));
-        addMenuItem(colorMenu, new StyledEditorKit.ForegroundAction("Черный", Color.black));
+        addMenuItem(colorMenu, new StyledEditorKit.ForegroundAction(RED, Color.red));
+        addMenuItem(colorMenu, new StyledEditorKit.ForegroundAction(ORANGE, Color.orange));
+        addMenuItem(colorMenu, new StyledEditorKit.ForegroundAction(YELLOW, Color.yellow));
+        addMenuItem(colorMenu, new StyledEditorKit.ForegroundAction(GREEN, Color.green));
+        addMenuItem(colorMenu, new StyledEditorKit.ForegroundAction(BLUE, Color.blue));
+        addMenuItem(colorMenu, new StyledEditorKit.ForegroundAction(CYAN, Color.cyan));
+        addMenuItem(colorMenu, new StyledEditorKit.ForegroundAction(MAGENTA, Color.magenta));
+        addMenuItem(colorMenu, new StyledEditorKit.ForegroundAction(BLACK, Color.black));
 
         colorMenu.addMenuListener(new TextEditMenuListener(view));
     }
