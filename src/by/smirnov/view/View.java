@@ -33,16 +33,16 @@ public class View extends JFrame implements ActionListener {
         return tabbedPane;
     }
 
-    private JTabbedPane tabbedPane = new JTabbedPane();
-    private JTextPane htmlTextPane = new JTextPane();
-    private JEditorPane plainTextPane = new JEditorPane();
-    private UndoManager undoManager = new UndoManager();
+    private final JTabbedPane tabbedPane = new JTabbedPane();
+    private final JTextPane htmlTextPane = new JTextPane();
+    private final JEditorPane plainTextPane = new JEditorPane();
+    private final UndoManager undoManager = new UndoManager();
 
     public UndoListener getUndoListener() {
         return undoListener;
     }
 
-    private UndoListener undoListener = new UndoListener(undoManager);
+    private final UndoListener undoListener = new UndoListener(undoManager);
 
     public Controller getController() {
         return controller;
@@ -156,8 +156,7 @@ public class View extends JFrame implements ActionListener {
     }
 
     public void showAbout() {
-        String message = ABOUT_MESSAGE;
         JOptionPane optionPane = new JOptionPane();
-        JOptionPane.showMessageDialog(optionPane, message, ABOUT, JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(optionPane, ABOUT_MESSAGE, ABOUT, JOptionPane.INFORMATION_MESSAGE);
     }
 }
