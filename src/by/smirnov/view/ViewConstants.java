@@ -44,4 +44,7 @@ public interface ViewConstants {
     String BOLD = "Полужирный";
     String UNDERLINE = "Подчеркнутый";
     String ITALIC = "Курсив";
+    String SUBSCRIPT = "Подстрочный знак";
+    String SUPERSCRIPT = "Надстрочный знак";
+    String STRIKETHROUGH = "Зачеркнутый";
 }
