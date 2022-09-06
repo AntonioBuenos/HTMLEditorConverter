@@ -40,4 +40,8 @@ public interface ViewConstants {
     String ALIGN_LEFT = "По левому краю";
     String ALIGN_CENTER = "По центру";
     String ALIGN_RIGHT = "По правому краю";
+    String STYLE = "Стиль";
+    String BOLD = "Полужирный";
+    String UNDERLINE = "Подчеркнутый";
+    String ITALIC = "Курсив";
 }

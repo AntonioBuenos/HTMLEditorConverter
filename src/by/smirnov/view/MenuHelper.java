@@ -92,12 +92,12 @@ public class MenuHelper {
     }
 
     public static void initStyleMenu(View view, JMenuBar menuBar) {
-        JMenu styleMenu = new JMenu("Стиль");
+        JMenu styleMenu = new JMenu(STYLE);
         menuBar.add(styleMenu);
 
-        addMenuItem(styleMenu, "Полужирный", new StyledEditorKit.BoldAction());
-        addMenuItem(styleMenu, "Подчеркнутый", new StyledEditorKit.UnderlineAction());
-        addMenuItem(styleMenu, "Курсив", new StyledEditorKit.ItalicAction());
+        addMenuItem(styleMenu, BOLD, new StyledEditorKit.BoldAction());
+        addMenuItem(styleMenu, UNDERLINE, new StyledEditorKit.UnderlineAction());
+        addMenuItem(styleMenu, ITALIC, new StyledEditorKit.ItalicAction());
 
         styleMenu.addSeparator();
 
