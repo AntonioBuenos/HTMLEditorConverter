@@ -47,4 +47,7 @@ public interface ViewConstants {
     String SUBSCRIPT = "Подстрочный знак";
     String SUPERSCRIPT = "Надстрочный знак";
     String STRIKETHROUGH = "Зачеркнутый";
+    String FILTER_DESCRIPTION = "HTML и HTM файлы";
+    String HTML_EXT = ".html";
+    String HTM_EXT = ".htm";
 }
