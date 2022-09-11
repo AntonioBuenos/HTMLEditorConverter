@@ -7,7 +7,7 @@ import java.awt.event.WindowEvent;
 
 public class FrameListener extends WindowAdapter {
 
-    private View view;
+    private final View view;
 
     @Override
     public void windowClosing(WindowEvent windowEvent) {

@@ -9,7 +9,7 @@ import java.awt.*;
 
 public class TextEditMenuListener implements MenuListener {
 
-    private View view;
+    private final View view;
     @Override
     public void menuSelected(MenuEvent menuEvent) {
         JMenu jMenu = (JMenu) menuEvent.getSource();

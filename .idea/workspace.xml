@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb375b55-eef8-4c00-8ada-e32fac0d9afa" name="Changes" comment="Refactoring 9">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="eb375b55-eef8-4c00-8ada-e32fac0d9afa" name="Changes" comment="Refactoring 10">
+      <change beforePath="$PROJECT_DIR$/src/by/smirnov/listeners/FrameListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/smirnov/listeners/FrameListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/smirnov/listeners/TabbedPaneChangeListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/smirnov/listeners/TabbedPaneChangeListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/smirnov/listeners/TextEditMenuListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/smirnov/listeners/TextEditMenuListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/smirnov/listeners/UndoListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/smirnov/listeners/UndoListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/smirnov/listeners/UndoMenuListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/smirnov/listeners/UndoMenuListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +87,7 @@
       <workItem from="1662152641299" duration="3123000" />
       <workItem from="1662246125112" duration="1341000" />
       <workItem from="1662486887939" duration="1352000" />
+      <workItem from="1662924192476" duration="487000" />
     </task>
     <task id="LOCAL-00001" summary="Initial, to be refactored">
       <created>1661712833079</created>
@@ -175,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662487497686</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Refactoring 10">
+      <created>1662924479588</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1662924479588</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +215,7 @@
     <MESSAGE value="Refactoring 7" />
     <MESSAGE value="Refactoring 8" />
     <MESSAGE value="Refactoring 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring 9" />
+    <MESSAGE value="Refactoring 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring 10" />
   </component>
 </project>
