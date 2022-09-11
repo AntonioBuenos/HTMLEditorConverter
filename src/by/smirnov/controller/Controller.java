@@ -14,7 +14,7 @@ import static by.smirnov.view.ViewConstants.TITLE;
 
 public class Controller {
 
-    private View view;
+    private final View view;
 
     public HTMLDocument getDocument() {
         return document;
